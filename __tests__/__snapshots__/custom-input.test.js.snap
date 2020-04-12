@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders contents correctly renders correctly 1`] = `
+<div
+  className="input input_theme_normal flex_column"
+>
+  <label
+    className="input__hint input-required"
+  >
+    Enter the commit hash which you want to build
+  </label>
+  <div
+    className="input__outer__wrapper"
+  >
+    <div
+      className="input__inner__wrapper"
+    >
+      <input
+        className="input__control input_size_m input_width_normal"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onInput={[Function]}
+        placeholder="Commit Hash"
+        type="text"
+        value=""
+      />
+    </div>
+    <p
+      className="error"
+    >
+      
+    </p>
+  </div>
+  <span
+    className="input__after-text"
+  >
+    
+  </span>
+</div>
+`;

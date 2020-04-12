@@ -1,0 +1,45 @@
+.icon {
+  display: inline-block;
+  text-align: center;
+  background: 50% no-repeat;
+  min-width: 28px;
+  min-height: 28px;
+  vertical-align: middle;
+}
+.none {
+  display: none;
+}
+.icon:empty:after {
+  visibility: hidden;
+  content: '\00A0';
+}
+.calendar {
+  background-image: url('../assets/icons/calendar.svg');
+}
+.refuse {
+  background-image: url('../assets/icons/refuse.svg');
+}
+.settings {
+  background-image: url('../assets/icons/settings.svg');
+}
+.user {
+  background-image: url('../assets/icons/user.svg');
+}
+.stopwatch {
+  background-image: url('../assets/icons/stopwatch.svg');
+}
+.rebuild {
+  background-image: url('../assets/icons/rebuild.svg');
+}
+.play {
+  background-image: url('../assets/icons/play.svg');
+}
+.done {
+  background-image: url('../assets/icons/done.svg');
+}
+.code-commit {
+  background-image: url('../assets/icons/code-commit.svg');
+}
+.clock {
+  background-image: url('../assets/icons/clock.svg');
+}

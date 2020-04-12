@@ -1,0 +1,28 @@
+.user-meta {
+  display: flex;
+  margin-top: 8px;
+  &__commit-number {
+    padding-left: 5px;
+    opacity: 0.3;
+  }
+  &__branches,
+  &__user-info {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+  }
+  &__branches-name,
+  &__user-info-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .user-meta {
+    flex-direction: column;
+    margin: 0;
+    margin: 0 0 8px 0;
+  }
+}

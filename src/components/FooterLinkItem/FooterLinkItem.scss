@@ -1,0 +1,10 @@
+.item {
+  &__link {
+    list-style: none;
+    color: var(--color-text-thirdly);
+    transition: 0.3s ease;
+    &:hover {
+      color: var(--color-text-link-hover);
+    }
+  }
+}

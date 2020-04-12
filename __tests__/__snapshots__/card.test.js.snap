@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders contents correctly renders correctly 1`] = `
+<a
+  href="/details?buildId=5e79a76e-13a2-472d-8aa5-19d52c3e33a1"
+  onClick={[Function]}
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card__data"
+    >
+      <div
+        className="card-status"
+      >
+        <i
+          className="icon clock"
+        />
+      </div>
+      <div
+        className="card__content-meta"
+      >
+        <div
+          className="card__title-user-meta"
+        >
+          <div
+            className="card-title"
+          >
+            <span
+              className="card-title__number pending"
+            >
+              #
+              1
+            </span>
+            <span
+              className="card-title__text"
+            >
+              FP-2020: INITIAL↵
+            </span>
+          </div>
+          <div
+            className="user-meta"
+          >
+            <div
+              className="user-meta__branches"
+            >
+              <i
+                className="icon code-commit"
+              />
+              <div
+                className="user-meta__branches-name"
+              >
+                master
+              </div>
+              <div
+                className="user-meta__commit-number"
+              >
+                573865
+              </div>
+            </div>
+            <div
+              className="user-meta__user-info"
+            >
+              <i
+                className="icon user"
+              />
+              <div
+                className="user-meta__user-info-name"
+              >
+                akimy
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card__time-meta"
+        >
+          <div
+            className="time-meta padding_top_8_mobile_768 flex_row_mobile_768"
+          >
+            <div
+              className="time-meta__date"
+            >
+              <i
+                className="icon calendar"
+              />
+              21 янв, 03:06
+            </div>
+            <div
+              className="time-meta__time margin_top_12 margin_mobile_reset_768 "
+            >
+              <i
+                className="icon stopwatch"
+              />
+              1 ч 20 мин
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+`;

@@ -1,0 +1,17 @@
+.build-log {
+  background: #f2f2f2;
+  font-size: 10px;
+  line-height: 20px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  overflow-y: auto;
+  &__content {
+    max-width: 580px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .build-log {
+    min-width: 100%;
+    margin: 0 -16px;
+  }
+}

@@ -1,0 +1,23 @@
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &__number {
+    font-size: 22px;
+    padding-right: 5px;
+    font-weight: var(--medium);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    &__number {
+      font-size: 15px;
+    }
+    &__text {
+      margin: 8px 0;
+    }
+  }
+}
